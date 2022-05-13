@@ -448,6 +448,7 @@ Video.propTypes = {
       uri: PropTypes.string.isRequired,
       type: PropTypes.oneOf([
         TextTrackType.SRT,
+        TextTrackType.SSA,
         TextTrackType.TTML,
         TextTrackType.VTT,
       ]),
